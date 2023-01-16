@@ -22,4 +22,4 @@ An instance variable belongs to the object itself (each object has its own insta
 
 
 
-  
+  #"9991".match('^(([0-9]{1,3})([:]?)([0-5][0-9]))$')
