@@ -38,7 +38,7 @@ class Coffe_machine
         puts "Water is blank" if @water.nil?
     end
     def make_cofee
-        puts "your cofee is ready \nWater level is #{@water -= 10}"
+        puts "your cofee is ready \nWater level is #{@water -= 10}" 
     end
 end 
 
