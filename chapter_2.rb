@@ -44,9 +44,9 @@ end
 
 cup_1 = Coffe_machine.new()
 cup_1.initializer(100)
-cup_1.water
+cup_1.water    # with function water
 cup_1.make_cofee
-cup_1.water
+puts "#{cup_1.water}"  # for accessing attr_reader
 cup_1.water
 
 cup_2 = Coffe_machine.new()

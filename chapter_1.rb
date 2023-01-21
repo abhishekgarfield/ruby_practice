@@ -57,10 +57,10 @@ end
 tax_calc(100,0.175)
 
 puts "#{'hello world'.to_f}"    # if a string cannot be converted into fload it returns 0.0
-puts "#{20.to_f}"  # integers are also converted
-puts "#{'20'.to_f}"
-puts "#{'20.89'.to_f}"
-puts "#{20.88.to_f}"
+puts "#{20.to_f}"  # integers are also converted 20.0
+puts "#{'20'.to_f}" # 20.0
+puts "#{'20.89'.to_f}" # 20.89
+puts "#{20.88.to_f}" # 20.88
 
 
 def tax_calculator
