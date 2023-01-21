@@ -40,7 +40,7 @@ class Coffe_machine
     def make_cofee
         puts "your cofee is ready \nWater level is #{@water -= 10}"   
     end
-end 
+end  
 
 cup_1 = Coffe_machine.new()
 cup_1.initializer(100)
