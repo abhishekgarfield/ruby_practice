@@ -14,11 +14,11 @@ puts "#{first_obj.class()}" # for printing classname
 
 
 
-# instance variables 
+# instance variables  
 =begin
 An instance variable in ruby has a name starting with @ symbol
 instance variables have value nil before initialization 
-The instance variables of an object can only be accessed by the instance methods of that object.
+The instance variables of an object can only f accessed by the instance methods of that object.
 An instance variable belongs to the object itself (each object has its own instance variable of that particular class)
 
 
@@ -51,3 +51,16 @@ cup_1.water
 
 cup_2 = Coffe_machine.new()
 cup_2.water
+
+
+class Check_instance
+    def initialize(variable)
+        @var = variable
+    end
+    def print
+        puts "variable is #{@var}"
+    end
+end
+
+Obj1 =  Check_instance.new(10)
+Obj1.print
