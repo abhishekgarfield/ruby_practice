@@ -20,7 +20,7 @@ An instance variable in ruby has a name starting with @ symbol
 instance variables have value nil before initialization 
 The instance variables of an object can only f accessed by the instance methods of that object.
 An instance variable belongs to the object itself (each object has its own instance variable of that particular class)
-
+  
 
 
   #"9991".match('^(([0-9]{1,3})([:]?)([0-5][0-9]))$')
