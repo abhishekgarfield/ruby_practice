@@ -26,7 +26,7 @@ An instance variable belongs to the object itself (each object has its own insta
   #"9991".match('^(([0-9]{1,3})([:]?)([0-5][0-9]))$')
 =end
 
-
+  
   
 class Coffe_machine
     attr_reader :water                   # used to access instance variables directly out side class
