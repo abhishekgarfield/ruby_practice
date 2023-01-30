@@ -6,7 +6,7 @@ class First_class   # classname starts with a capital latter
     end
 end
 
-
+  
 first_obj = First_class.new()
 
 first_obj.say_something()
@@ -23,7 +23,7 @@ An instance variable belongs to the object itself (each object has its own insta
     
        
 
-#"9991".match('^(([0-9]{1,3})([:]?)([0-5][0-9]))$')
+# "9991".match('^(([0-9]{1,3})([:]?)([0-5][0-9]))$')
 =end
     
   
