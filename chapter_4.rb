@@ -13,7 +13,7 @@ class Treasure < Thing
     def initialize (name , desc , value)
         super(name , desc) 
         @value = value
-    end
+    end   
 
     def print_from_child
         puts " ------------------- printing from child class #{@description}  of #{@name}"
