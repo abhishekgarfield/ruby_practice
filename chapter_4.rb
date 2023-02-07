@@ -10,7 +10,7 @@ end
 
 
 class Treasure < Thing
-    def initialize (name , desc , value)
+    def initialize (name , desc , value) 
         super(name , desc) 
         @value = value
     end   
